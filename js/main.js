@@ -1,15 +1,13 @@
-var visible = true;
-
 var settings = {
-    "url": "https://api-gate2.movieglu.com/filmsNowShowing/?n=15",
+    "url": "https://api-gate2.movieglu.com/filmsNowShowing/?n=13",
     "method": "GET",
     "timeout": 0,
     "headers": {
     "api-version": "v200",
     "Authorization": "Basic Q1JUTV9YWDpsTUhGWGU3azJ6QVk=",
     "client": "CRTM",
-    "x-api-key": "N1VKriN0z01rTs3lakrgn1zGCxtjBZa03ryXBwR3",
-    "device-datetime": "2022-09-22T10:07:57.296Z",
+    "x-api-key": "qsuWSsxtQD3NxklgDcElz5MPEQVCpxCq406P3YY7",
+    "device-datetime": "2022-09-27T10:07:57.296Z",
     "territory": "DE",
     },
     };
