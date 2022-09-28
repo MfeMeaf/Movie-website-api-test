@@ -1,5 +1,5 @@
 :root{
-    --scrollbg:hsl(0, 60%, 36%);
+    --scrollbg:hsl(0, 94%, 47%);
     --scrollth: hsl(0, 60%, 33%);
     --scrollhov: hsl(0, 60%, 23%);
 }
@@ -33,6 +33,11 @@ h1.headerTrail{
     padding-top: 1%;
     text-shadow: 1px 2px hsl(0, 43%, 35%);
     margin-bottom: 15px;
+}
+img.headerTrail{
+    float: left;
+    width: 7vh !important;
+    border: 0px !important;
 }
 a.headerTrail{
     padding: 0.5%;
@@ -84,7 +89,7 @@ footer.footerTrail{
 }
 
 ::-webkit-scrollbar-track {
-    background: hotpink;
+    background: var(--scrollbg);
 }
 
 ::-webkit-scrollbar-thumb {

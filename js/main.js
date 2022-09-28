@@ -15,7 +15,7 @@ var settings = {
         var num = 0;
         console.log(response)
         response.films.forEach(i => {
-            var onclick = `<a href="trailer.html?imdb_id=${i.imdb_id}">View Trailer</a><br>`
+            var onclick = `<P>Press on card to view trailer<P>`
             
             if(i.images.poster[1] === undefined){
                 var img = `<h2>No img found</h2>`
@@ -25,8 +25,12 @@ var settings = {
             }
             var title = `<h5 class="card-title">${i.film_name}</h5><br>`
             var rating = `<p class="card-text">${i.age_rating[0].rating}</p><br>`
-            var movie = (`<div class="mainDiv card-mainVC"><div class="card-body id="card`+num+`">${img+title+onclick}<div>${rating}</div></div></div>`)
+            var movie = (`<div class="mainDiv card-mainVC"><div class="card-body" onclick="changeweb(${i.imdb_id})" id="card`+num+`">${img+title+onclick}<div>${rating}</div></div></div>`)
             $(".cards").append(movie);    
             num++;                
         });
     });
+
+function changeweb(i){
+    window.location.href = `trailer.html?imdb_id=${i}`
+}
