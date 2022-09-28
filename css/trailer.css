@@ -1,0 +1,97 @@
+:root{
+    --scrollbg:hsl(0, 60%, 36%);
+    --scrollth: hsl(0, 60%, 33%);
+    --scrollhov: hsl(0, 60%, 23%);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.movieTrailer{
+    width:80%;
+    height:50vh;
+    background: linear-gradient(to left, hsl(0, 64%, 40%), hsl(270, 90%, 31%));
+    border:4px black inset;
+    border-radius: 1%;
+    text-align:center;
+    margin:5%;
+    margin-left:8.5%;
+}
+.trailer{
+    height: 100vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+header.headerTrail{
+    background: hsl(0, 65%, 43%);
+    height: 12vh;
+    border-bottom: 4px black inset;
+    text-align: center;
+}
+h1.headerTrail{
+    padding-top: 1%;
+    text-shadow: 1px 2px hsl(0, 43%, 35%);
+    margin-bottom: 15px;
+}
+a.headerTrail{
+    padding: 0.5%;
+    background: hsl(42, 33%, 62%);
+    border: 2px black inset;
+    text-decoration: none;
+}
+a{
+    color: white;
+}
+.movieTrailer{
+    width:80%;
+    margin-left: 10%;
+    text-align: center;
+    height: 96vh;
+    margin-top: 1%;
+}
+.TrailContent{
+    width: 50%;
+    margin-left: 25%;
+}
+video{
+    width: 150vh;
+}
+.movieDesc{
+    width:80%;
+    height:20vh;
+    background: linear-gradient(to left, hsl(0, 64%, 40%), hsl(270, 90%, 31%));
+    border:4px black inset;
+    border-radius: 1%;
+    text-align:center;
+    margin:5%;
+    margin-left:8.5%;
+}
+footer.footerTrail{
+    background: hsl(270, 65%, 43%);
+    height: 10vh;
+    border-top: 4px black inset;
+    text-align: center;
+    display: block;
+    position: relative;
+    bottom: 0%;
+}
+.area{
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: hotpink;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollth);
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollhov);
+    cursor:pointer;
+}

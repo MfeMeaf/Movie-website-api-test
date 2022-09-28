@@ -15,12 +15,8 @@ var settings = {
         var num = 0;
         console.log(response)
         response.films.forEach(i => {
-            if(i.film_trailer === null){
-                var onclick = `<p>No trailer</p><br>`
-            }
-            else{
-                var onclick = `<a href="trailer.html?imdb_id=${i.imdb_id}">View Trailer</a><br>`
-            }
+            var onclick = `<a href="trailer.html?imdb_id=${i.imdb_id}">View Trailer</a><br>`
+            
             if(i.images.poster[1] === undefined){
                 var img = `<h2>No img found</h2>`
             }

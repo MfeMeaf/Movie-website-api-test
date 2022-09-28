@@ -1,6 +1,4 @@
 const url = new URL(window.location.href)
-console.log(url)
-console.log(url.search)
 const id = url.search.slice(9)
 var settings = {
     "url": "https://api-gate2.movieglu.com/filmsNowShowing/?n=15",
@@ -19,16 +17,22 @@ $.ajax(settings).done(function (response) {
     console.log(response.films)
     response.films.forEach(i => {
         if(i.imdb_id == id){
+            console.log(i.film_trailer)
+            if(i.film_trailer === null){
+                var trailer = `<h1>Unable to find trailer</h1>`
+            }
+            else{
+                var trailer = `<video controls autoplay><source src=${i.film_trailer} type="video/mp4">Your browser does not support the video tag.</video>`
+            }
             var title = `<h2 class="card-title">${i.film_name}</h2><br>`
             var Synopsis = `<h3> Synopsis of ${i.film_name}</h3><br> `
             var description = `<p class="card-text">${i.synopsis_long}</p><br>`
-            var trailer = `<video controls autoplay><source src=${i.film_trailer} type="video/mp4">Your browser does not support the video tag.</video>`
             var movie = `<div class="movieTrailer"><div class="trailer-body">${title+trailer}</div></div>`
             var movieDesc = `<div class="movieDesc"><div class="trailer-body">${Synopsis + description}</div></div>`
             $(".trailer").append(movie);
             $(".description").append(movieDesc)
         }
         else
-        console.log("false")
+        console.log("False")
     });
 });
