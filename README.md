@@ -8,6 +8,7 @@ The website it self went according to the requirements specification form except
 ![Cannot show img](bilder/spec2.png)
 ## Finished Version
 ![Cannot show img](bilder/specfinished.png)
+
 As for the trailer part of the website it is essenstially the same as the sketch except that instead of a review it displays te synopsis of the movie and the name of the movie
 Due to the API used not having all the information I originally wanted I adapted to fitting the website to work around it 
 
