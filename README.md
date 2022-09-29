@@ -6,7 +6,7 @@ The website itself went according to the requirements specification form except 
 ### Originial sketch
 ![Cannot show img](bilder/spec1.png)
 ![Cannot show img](bilder/spec2.png)
-## Finished Version
+### Finished Version
 ![Cannot show img](bilder/specfinished.png)
 
 As for the trailer part of the website it is essenstially the same as the sketch except that instead of a review it displays the synopsis of the movie and the name of the movie
