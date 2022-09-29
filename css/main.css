@@ -6,7 +6,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    color: white !important;
+    color: goldenrod !important;
 }
 body{
     background: hsl(41, 48%, 83%);
@@ -22,14 +22,9 @@ header.header{
     border-bottom: 4px black inset;
     text-align: center;
 }
-button.header{
-    padding: 0.5%;
-    background: hsl(42, 33%, 62%);
-    border: 2px black inset;
-}   
 h1.header{
     padding-top: 1%;
-    text-shadow: 1px 2px hsl(0, 43%, 35%);
+    text-shadow: 2px 3px hsl(0, 43%, 35%) !important;
 }
 img.header{
     float: left;
@@ -41,18 +36,9 @@ img{
     width:25vh;
     border: 4px black inset;
 }
-.card-mainVNC{
-    width:35vh;
-    height:85vh;
-    text-align:center;
-    margin:5%;
-    margin-left:8.5%;
-    background: linear-gradient(to left, hsl(0, 64%, 40%), hsl(270, 90%, 31%));
-    border:4px black inset;
-}
 .card-mainVC{
     width:35vh;
-    height:50vh;
+    height:52vh;
     background: linear-gradient(to left, hsl(0, 64%, 40%), hsl(270, 90%, 31%));
     border:4px black inset;
     border-radius: 1%;
@@ -74,7 +60,7 @@ img{
     border-radius: 100%;
 }
 .cards{
-    height: 300vh;
+    height: 310vh;
 }
 .cardsTog{
     height: 450vh;
@@ -87,9 +73,6 @@ footer.footerMain{
     display: block;
     position: relative;
     bottom: 0%;
-}
-a{
-    color: black;
 }
 p.footer{
     margin-top: 2%;

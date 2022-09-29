@@ -25,7 +25,8 @@ var settings = {
             }
             var title = `<h5 class="card-title">${i.film_name}</h5><br>`
             var rating = `<p class="card-text">${i.age_rating[0].rating}</p><br>`
-            var movie = (`<div class="mainDiv card-mainVC"><div class="card-body" onclick="changeweb(${i.imdb_id})" id="card`+num+`">${img+title+onclick}<div>${rating}</div></div></div>`)
+            var release = `<p class="card-text">${i.release_dates[0].release_date}</p><br>`
+            var movie = (`<div class="mainDiv card-mainVC"><div class="card-body" onclick="changeweb(${i.imdb_id})" id="card`+num+`">${img+title+onclick+release}<div>${rating}</div></div></div>`)
             $(".cards").append(movie);    
             num++;                
         });
@@ -33,4 +34,7 @@ var settings = {
 
 function changeweb(i){
     window.location.href = `trailer.html?imdb_id=${i}`
+}
+function infoweb(){
+    window.location.href = `info.html`
 }

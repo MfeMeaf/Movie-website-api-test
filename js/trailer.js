@@ -22,7 +22,7 @@ $.ajax(settings).done(function (response) {
                 var trailer = `<h1>Unable to find trailer</h1>`
             }
             else{
-                var trailer = `<video controls autoplay><source src=${i.film_trailer} type="video/mp4">Your browser does not support the video tag.</video>`
+                var trailer = `<video controls autoplay id="videoYes"><source src=${i.film_trailer} type="video/mp4">Your browser does not support the video tag.</video>`
             }
             var title = `<h2 class="card-title">${i.film_name}</h2><br>`
             var Synopsis = `<h3> Synopsis of ${i.film_name}</h3><br> `

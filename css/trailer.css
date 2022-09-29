@@ -81,6 +81,9 @@ footer.footerTrail{
     position: relative;
     bottom: 0%;
 }
+video{
+    box-shadow: inset 1px goldenrod;
+}
 .area{
     height: 100%;
 }
@@ -99,4 +102,7 @@ footer.footerTrail{
 ::-webkit-scrollbar-thumb:hover {
     background: var(--scrollhov);
     cursor:pointer;
+}
+#videoYes {
+    border-radius: 1%;
 }
