@@ -1,5 +1,6 @@
 const url = new URL(window.location.href)
 const id = url.search.slice(9)
+
 var settings = {
     "url": "https://api-gate2.movieglu.com/filmsNowShowing/?n=15",
     "method": "GET",
