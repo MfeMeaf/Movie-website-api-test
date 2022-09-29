@@ -2,14 +2,14 @@
 ## What is this website?
 *This was a mini project to test and get used to using API's*
 ## Am I satisfied with the website relative to the 
-The website it self went according to the requirements specification form except a few changes in the general way that information is shown on the website
+The website it self went according to the requirements specification form except a few changes in the general way that information is shown on the website however the finished version is satisfactory to the standards I set on myself "mainly the functionallity part of the project"
 ## Originial sketch
 ![Cannot show img](bilder/spec1.png)
 ![Cannot show img](bilder/spec2.png)
 ## Finished Version
 ![Cannot show img](bilder/specfinished.png)
 
-As for the trailer part of the website it is essenstially the same as the sketch except that instead of a review it displays te synopsis of the movie and the name of the movie
+As for the trailer part of the website it is essenstially the same as the sketch except that instead of a review it displays the synopsis of the movie and the name of the movie
 Due to the API used not having all the information I originally wanted I adapted to fitting the website to work around it 
 
 -*Since I also couldn't find a suitable API that could get the information I wanted without trading something else off* 
