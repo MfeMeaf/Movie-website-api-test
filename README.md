@@ -12,10 +12,12 @@ The website itself went according to the requirements specification form except 
 ![Cannot show img](bilder/specfinished.png)
 
 As for the trailer part of the website it is essenstially the same as the sketch except that instead of a review it displays the synopsis of the movie and the name of the movie
-Due to the API used not having all the information I originally wanted I adapted to fitting the website to work around it 
+Due to the API used not having all the information I originally wanted I adapted to fitting the website to work around it.
+
+This was done so that I would have more time finishing the project but looking back I would have had more time looking for a better API or one that could be added.
 
 -*Since I also couldn't find a suitable API that could get the information I wanted without trading something else off* 
-The general styling of the website could be better but I think that the simplistic design works and doesn't overclutter with unnecessary information / items
+The general styling of the website could be better but I think that the simplistic design works and doesn't clutter the website with unnecessary information / items
 
 The work flow during the project steady except during the start when I was looking for a decent API "Not all of them have a good response time and trailers"
 
