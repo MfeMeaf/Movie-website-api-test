@@ -1,3 +1,4 @@
+/* These are variables used for the scrollbar */
 :root{
     --scrollbg:hsl(0, 94%, 47%);
     --scrollth: hsl(0, 60%, 33%);
