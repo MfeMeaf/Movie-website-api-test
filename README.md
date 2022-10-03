@@ -35,4 +35,4 @@ If you wish to test this out on your own simply fork the project or download the
 Don't forget to change some code "Follow the instructions in the code", 
 
 
-### Goodluck
+### Good luck
