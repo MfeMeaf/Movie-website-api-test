@@ -17,6 +17,7 @@ var settings = {
         console.log(response)
         response.films.forEach(i => {
             // Thses create variables for the content 
+            // Changing the style of the project can be done in the CSS file - main.css or trailer.css
             var onclick = `<P>Press on card to view trailer<P>`
             // Checks if there is a img for the movie 
             if(i.images.poster[1] === undefined){

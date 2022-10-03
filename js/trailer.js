@@ -1,16 +1,20 @@
+//This code gets the location / url then splits it so that you only get the ID
+// Follow the same instructions as in main.js
 const url = new URL(window.location.href)
 const id = url.search.slice(9)
 
 var settings = {
-    "url": "https://api-gate2.movieglu.com/filmsNowShowing/?n=15",
+    "url": "https://api-gate2.movieglu.com/filmsNowShowing/?n=X",
+    // Note that N=X is the amount of movies it will show max 15 default is 10
     "method": "GET",
     "timeout": 0,
     "headers": {
-    "api-version": "v200",
-    "Authorization": "Basic Q1JUTV9YWDpsTUhGWGU3azJ6QVk=",
-    "client": "CRTM",
-    "x-api-key": "N1VKriN0z01rTs3lakrgn1zGCxtjBZa03ryXBwR3",
-    "device-datetime": "2022-09-27T10:07:57.296Z",
+    "api-version": "Input Version",
+    "Authorization": "Input auth, Example - Basic 46jragjo12j5iarg=",
+    // Here you input the 4 letter client code you got. "If you are using movieGLU"
+    "client": "XX",
+    "x-api-key": "Input API Key here",
+    "device-datetime": "Input date, Example - 2022-09-27T10:07:57.296Z",
     "territory": "XX",
     },
     };
