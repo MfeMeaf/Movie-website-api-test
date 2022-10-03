@@ -16,3 +16,12 @@ Due to the API used not having all the information I originally wanted I adapted
 The general styling of the website could be better but I think that the simplistic design works and doesn't overclutter with unnecessary information / items
 
 The work flow during the project steady except during the start when I was looking for a decent API "Not all of them have a good response time and trailers"
+
+## What could I improve?
+1. Gitnore - 
+The main thing that I should have done before publishing the project is make a gitnore file to ignore a file where the API key was stored "this would have secured the API key further so that only I would have been able to access / see the API key."
+
+2. Minor feature improvements - 
+As for the features, something that would have been better to do is adding another API so that finding reviews for the movie would have been possible. Due to the API that is used not having zed data this feature was disconteniued.
+
+3. 

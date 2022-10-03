@@ -28,7 +28,7 @@ body{
 }
 header.headerTrail{
     background: hsl(0, 65%, 43%);
-    height: 12vh;
+    height: 14vh;
     border-bottom: 4px black inset;
     text-align: center;
 }
