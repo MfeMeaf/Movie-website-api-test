@@ -3,7 +3,7 @@
 *This was a mini project to test and get used to using API's*
 
 The API that was used is [MovieGLU](https://developer.movieglu.com/)
-## Am I satisfied with the website relative to the 
+## Am I satisfied with the website?
 The website itself went according to the requirements specification form except a few changes in the general way that information is shown on the website however the finished version is satisfactory to the standards I set on myself "mainly the functionallity part of the project"
 ### Originial sketch
 ![Cannot show img](bilder/spec1.png)
